@@ -1,10 +1,14 @@
 * {
-	box-sizing: border-box;
+margin: 0;
+}
+header, body, section, article, footer, nav, figure, figcaption {
+        display: block;
 }
 body {
 	background-color: #ffffff;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	height: 100%;
+	margin: 0;
 }
 header {
 	background-color: #ffffff;
