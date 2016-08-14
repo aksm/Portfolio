@@ -1,52 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<title>Al Min</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
-	<body>
-		<div id="wrapper">
-			<header>
-				<h1>Al Min</h1>
-				<nav id="site-nav">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact | Al Min</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header id="masthead">
+			<div class="container">
+				<a href="index.html" id="logo">Al Min</a>
+				<nav>
+					<a href="index.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+			</div>
+		</header>
+
+		<div id="main-container" class="container">
+			<section class="main-section">
+				<h1>Contact</h1>
+
+				<form id="contact-form">
 					<ul>
-						<li><a href="index.html">About</a><p class="divider"> |</p></li>
-						<li><a href="portfolio.html">Portfolio</a><p class="divider"> |</p></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li>
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" placeholder="Hilda Doolittle" required="required">
+						</li>
+						<li>
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+						</li>
+						<li>
+							<label for="message">Message</label>
+							<textarea id="message" name="message" required="required"></textarea>
+						</li>
 					</ul>
-				</nav>
-			</header>
-			<section>
-				<article>
-					<h2>Contact</h2>
-					<hr id="contact-divider">
-					<form action="MAILTO:albert@gmail.com" method="post" enctype="text/plain">
-						<label for="name">Name</label><br>
-						<input type="text" id="name" placeholder="Harry Prince of Wales" required="required"><br>
-						<label for="email">E-mail</label><br>
-						<input type="email" id="email" placeholder="harry@princeofwales.com" required="required"><br>
-						<label for="message">Message</label><br>
-						<textarea id="message" placeholder="Dear Al..." required="required"></textarea><br>
-						<input type="submit" value="Submit" id="submit">
-					</form>
-				</article>
-				<nav id="connect">
-					<h3>Connect with Me</h3>
-					<hr id="connect-divider">
-					<ul id="connect-icons">
-						<li><a href="https://github.com/aksm"><img class="icons" src="assets/images/1470392453_GitHub_alt.svg" alt="github"></a></li>
-						<li><a href="https://www.linkedin.com/in/albert-min-91a92111"><img class="icons" src="assets/images/1470731728_5296_-_LinkedIn.svg" alt="linkedin"></a></li>
-						<li><a href="https://stackoverflow.com/users/6670034/albert-min"><img class="icons" src="assets/images/1470392808_5333_-_Stackoverflow.svg" alt="stackoverflow"></a></li>
-					</ul>
-				</nav>
+					<input type="submit">
+				</form>
+
 			</section>
-			<div class="push"></div>
+
+			<section class="sidebar">
+				<div id="connect">
+					<h2>Connect with Me</h2>
+
+					<a href="https://github.com/aksm"><img src="assets/images/1470392453_GitHub_alt.svg" class="social" alt="Github"></a>
+					<a href="https://www.linkedin.com/in/albert-min-91a92111"><img src="assets/images/1470731728_5296_-_LinkedIn.svg" class="social" alt="LinkedIn"></a>
+					<a href="https://stackoverflow.com/users/6670034/albert-min"><img src="assets/images/1470392808_5333_-_Stackoverflow.svg" class="social" alt="Stack Overflow"></a>
+				</div>
+			</section>
 		</div>
-		<footer>
-			&copy; Copyright 2016 Albert Min
-		</footer>
-	</body>
+		<div class="push"></div>
+	</div>
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Your Name
+		</div>
+	</footer>
+</body>
 </html>

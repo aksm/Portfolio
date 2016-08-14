@@ -1,57 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<title>Al Min</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
-	<body>
-		<div id="wrapper">
-			<header>
-				<h1>Al Min</h1>
-				<nav id="site-nav">
-					<ul>
-						<li><a href="index.html">About</a><p class="divider"> |</p></li>
-						<li><a href="portfolio.html">Portfolio</a><p class="divider"> |</p></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio | Al Min</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header id="masthead">
+			<div class="container">
+				<a href="index.html" id="logo">Al Min</a>
+				<nav>
+					<a href="index.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact</a>
 				</nav>
-			</header>
-			<section>
-				<article>
-					<h2>Portfolio</h2>
-					<hr id="portfolio-divider">
-					<table id="portfolio-table">
-						<tr class=portfolio-rows>
-							<td class="portfolio-col1">
-								<a href="http://www.codeskulptor.org/#user16_vLyl9L9fBHOzBYD.py">
-									<figure><img class="icon" src="assets/images/ricerocks.png"><figcaption>Rice Rocks</figcaption></figure>
-								</a>
-							</td>
-							<td class="portfolio-col2">
-								<a href="https://scratch.mit.edu/projects/113087994/">
-									<figure><img class="icon" src="assets/images/downtherabbithole.png"><figcaption>Down the Rabbit Hole</figcaption></figure>
-								</a>
-							</td>
-						</tr>
-					</table>
-				</article>
-				<nav id="connect">
-					<h3>Connect with Me</h3>
-					<hr id="connect-divider">
-					<ul id="connect-icons">
-						<li><a href="https://github.com/aksm"><img class="icons" src="assets/images/1470392453_GitHub_alt.svg" alt="github"></a></li>
-						<li><a href="https://www.linkedin.com/in/albert-min-91a92111"><img class="icons" src="assets/images/1470731728_5296_-_LinkedIn.svg" alt="linkedin"></a></li>
-						<li><a href="https://stackoverflow.com/users/6670034/albert-min"><img class="icons" src="assets/images/1470392808_5333_-_Stackoverflow.svg" alt="stackoverflow"></a></li>
-					</ul>
-				</nav>
+			</div>
+		</header>
+
+		<div id="main-container" class="container">
+			<section class="main-section">
+				<h1>Portfolio</h1>
+				
+				<div class="work">
+					<a href="http://www.codeskulptor.org/#user16_vLyl9L9fBHOzBYD.py"><img src="assets/images/ricerocks.png" alt="Rice Rocks">
+
+					<h3>Rice Rocks</h3></a>
+				</div>
+				<div class="work">
+					<a href="https://scratch.mit.edu/projects/113087994/"><img src="assets/images/downtherabbithole.png" alt="Down the Rabbit Hole">
+
+					<h3>Down the Rabbit Hole</h3></a>
+				</div>
+				<div class="work">
+					<img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+					<h3>Hangman</h3>
+				</div>
+				<div class="work">
+					<img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+					<h3>RPG Game</h3>
+				</div>
+				<div class="work">
+					<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+					<h3>Trivia Game</h3>
+				</div>
+				<div class="work">
+					<img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+					<h3>Rutgers Info Widget</h3>
+				</div>
+				<div class="work">
+					<img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+					<h3>Rock Paper Scissors</h3>
+				</div>
+
 			</section>
-			<div id="push"></div>
+
+			<section class="sidebar">
+				<div id="connect">
+					<h2>Connect with Me</h2>
+
+					<a href="https://github.com/aksm"><img src="assets/images/1470392453_GitHub_alt.svg" class="social" alt="Github"></a>
+					<a href="https://www.linkedin.com/in/albert-min-91a92111"><img src="assets/images/1470731728_5296_-_LinkedIn.svg" class="social" alt="LinkedIn"></a>
+					<a href="https://stackoverflow.com/users/6670034/albert-min"><img src="assets/images/1470392808_5333_-_Stackoverflow.svg" class="social" alt="Stack Overflow"></a>
+				</div>
+			</section>
 		</div>
-		<footer>
-			&copy; Copyright 2016 Albert Min
-		</footer>
-	</body>
+		<div class="push"></div>
+	</div>
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Your Name
+		</div>
+	</footer>
+</body>
 </html>
